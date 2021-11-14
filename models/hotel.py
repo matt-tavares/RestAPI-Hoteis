@@ -14,7 +14,7 @@ class HotelModel(banco.Model):
     def __init__(self, hotel_id, nome, estrelas, diaria, cidade):
         self.hotel_id = hotel_id
         self.nome = nome
-        self.esterlas = estrelas
+        self.estrelas = estrelas
         self.diaria = diaria
         self.cidade = cidade
 
